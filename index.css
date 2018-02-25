@@ -26,16 +26,16 @@ html, body {
 
 .icon {
   width: 4rem;
-  fill: black;
+  fill: white;
   margin: 1rem;
 }
 
 .icon:hover {
-  fill: white;
+  fill: black;
 }
 
 .content {
-  color: black;
+  color: white;
   /* max-width: 500px; */
   margin: 0 auto;
   text-align: center;
