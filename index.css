@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Doris');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: table;
+  top: 0;
+  background: url('./pexels-photo-302769.jpeg') no-repeat 10% 10%;
+  background-size: cover;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.icon {
+  width: 4rem;
+  fill: black;
+  margin: 1rem;
+}
+
+.icon:hover {
+  fill: white;
+}
+
+.content {
+  color: black;
+  /* max-width: 500px; */
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content h1 {
+  font-size: 4em;
+}
+
+.btn {
+  color: black;
+  font-family: 'Doris', sans-serif;
+  font-size: 135%;
+  font-style: oblique;
+  padding: 10px 20px;
+  border: solid 3px;
+  text-transform: uppercase;
+  text-shadow: 10px
+}
+.btn:hover {
+  color: white;
+  border: solid 3px;
+}
+
+.mantra {
+  padding: 20px 50px;
+  font-family: 'Doris', sans-serif;
+  text-align: center;
+}
